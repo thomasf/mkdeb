@@ -1,0 +1,11 @@
+{
+	"architecture": "amd64",
+	"maintainer": "Chris Bednarski <banzaimonkey@gmail.com>",
+	"depends": ["wget", "tree"],
+	"package": "mkdeb",
+	"version": "0.1.0",
+	"homepage": "https://github.com/cbednarski/mkdeb",
+	"conflicts": ["debpkg"],
+	"replaces": ["debpkg"],
+	"description": "A CLI tool for building debian packages"
+}
